@@ -6,7 +6,7 @@ const dataTalkers = async () => {
     const response = JSON.parse(data);
     return response;
   } catch (err) {
-    console.log(`Erro ao ler o arquivo: ${err.path}`);
+    console.log('Erro ao ler o arquivo');
   }
 };
 

@@ -4,8 +4,9 @@ const router = express.Router();
 
 const generateToken = require('../utils/generateToken');
 
-const validateLogin = require('../middlewares/validateLoginMiddleware');
+const validateLogin = require('../middlewares/validateLogin');
 
+// requisitos 3 e 4
 router.post('/login', validateLogin, async (req, res) => {
   console.log('post');
  
