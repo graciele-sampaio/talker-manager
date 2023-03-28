@@ -1,7 +1,7 @@
 <div align="center">
   <img alt="image-talker" src="https://i.imgur.com/G2TRpkP.png"/>
 </div>
-<hr></hr>
+
 
 # Talker Manager 
 Desenvolvi uma API na qual é possível cadastrar, listar, atualizare deletar palestrantes(talkers).
