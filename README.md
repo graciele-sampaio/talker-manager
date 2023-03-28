@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="image-talker" src="https://i.imgur.com/MCqlu35.png"/>
+  <img alt="image-talker" src="https://i.imgur.com/G2TRpkP.png"/>
 </div>
 <hr></hr>
 
