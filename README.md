@@ -4,7 +4,8 @@
 
 <h1 align="center">Talker Manager</h1>
 
-Desenvolvi uma API na qual é possível cadastrar, listar, atualizare deletar palestrantes(talkers).
+<p align="center">Desenvolvi uma API na qual é possível cadastrar, listar, atualizare deletar palestrantes(talkers).</p>
+
 
 
 ## Tecnologias utilizadas
