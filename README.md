@@ -30,11 +30,10 @@ Instale as dependências
   npm install
 ```
 
-Rodando serviços no Docker
+Rodando O serviço do node no Docker.
 ```bash
   docker-compose up -d --build
 ```
-- ##### Será iniciado um container que roda o node.
 
 Para executar o terminal no container:
 ```bash
