@@ -35,7 +35,7 @@ Instale as dependências
   npm install
 ```
 
-Rodando O serviço do node no Docker.
+Rodando o serviço do node no Docker.
 ```bash
   docker-compose up -d --build
 ```
@@ -52,6 +52,9 @@ npm run dev
 ## Documentação da API
 
 #### Passando email, senha e retorna o token 
+```http
+  POST /login
+```
 - Formato do corpo da requisição:
 ```http
 {
@@ -87,10 +90,11 @@ npm run dev
 
 ##
 #### Cadastra um palestrante
-- Formato do corpo da requisição:
 ```http
   POST /talker
 ```
+
+- Formato do corpo da requisição:
 ```http
   {
   "name": "Username",
@@ -102,6 +106,7 @@ npm run dev
 }
 ```
 ##
+
 #### Atualiza dados do palestrante a partir do id
 ```http
   PUT /talker/:id
@@ -130,7 +135,7 @@ npm run dev
 |GET    | /talker  | - - -  | - - -   | Retorna um array com todas as pessoas cadastradas   |
 | GET   |/talker/:id   | id  |number   |Busca palestrante com base no id passado  |
 | POST  |/login   |email / password   | string / string | Passando email e password, retorna um token |
-| POST  |/talker   | formato json tópico Documentação)   |string / number   | Cadastra um palestrante  |
+| POST  |/talker   | formato json tópico: "Documentação"   |string / number   | Cadastra um palestrante  |
 |  PUT  | /talker/:id  | id  |number   | Atualiza os dados de um palestrante passando o seu id  |
 |DELETE   |/talker/:id    |id   |number   | Deleta um palestrante passando o seu id   |
 
