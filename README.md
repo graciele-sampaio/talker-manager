@@ -4,7 +4,7 @@
 
 <h1 align="center">Talker Manager</h1>
 
-<p align="center">Desenvolvi uma API na qual é possível cadastrar, listar, atualizare deletar palestrantes(talkers).</p>
+<p align="center">Desenvolvi uma API na qual é possível cadastrar, listar, atualizare deletar palestrantes(talkers), você pode testar as requisições e verificar o response a partir da extensão "Thunder Client" disponível no Visual Studio Code, através do Postaman ou Insomnia.</p>
 
 
 
