@@ -17,7 +17,7 @@
 [<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node" title="Node" height="25" />](https://nodejs.org/en/docs)
 &nbsp;
 
-## Instalação
+## Rodando com Docker
 
 Clone o repositório 
 ```bash
@@ -49,6 +49,26 @@ Para executar a aplicação com o nodemon, uilize o comando:
 ```bash
 npm run dev
 ```
+
+## Rodando localmente 
+## Instalação
+
+Clone o repositório 
+```bash
+git@github.com:graciele-sampaio/talker-manager.git
+```
+
+Entre na pasta criada:
+
+```bash
+  cd talker-manager
+```
+
+Instale as dependências
+```bash
+  npm install
+```
+
 ## Documentação da API
 
 #### Passando email, senha e retorna o token 
