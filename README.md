@@ -78,7 +78,7 @@ npm run dev
 ```
 
 ##
-#### Retorna um palestrante a partir do id
+#### Retorna um palestrante a partir do id passado como parâmetro
 
 ```http
   GET /talker/:id
@@ -107,7 +107,7 @@ npm run dev
 ```
 ##
 
-#### Atualiza dados do palestrante a partir do id
+#### Atualiza dados do palestrante a partir do id passado como parâmetro
 ```http
   PUT /talker/:id
 ```
@@ -118,7 +118,7 @@ npm run dev
 
 ##
 
-#### Deleta o palestrante a partir do id
+#### Deleta o palestrante a partir do id passado como parâmetro
 ```http
   DELETE /talker/:id
 ```
@@ -133,10 +133,10 @@ npm run dev
 |  Método | Rota  |Parâmetro   |Tipo   | Descrição  |
 | :------------ | :------------ | :------------ | :------------ | :------------ |
 |GET    | /talker  | - - -  | - - -   | Retorna um array com todas as pessoas cadastradas   |
-| GET   |/talker/:id   | id  |number   |Busca palestrante com base no id passado  |
+| GET   |/talker/:id   | id  |number   |Busca palestrante com base  no id passado como parâmetro |
 | POST  |/login   |email / password   | string / string | Passando email e password, retorna um token |
-| POST  |/talker   | formato json tópico: "Documentação"   |string / number   | Cadastra um palestrante  |
-|  PUT  | /talker/:id  | id  |number   | Atualiza os dados de um palestrante passando o seu id  |
-|DELETE   |/talker/:id    |id   |number   | Deleta um palestrante passando o seu id   |
+| POST  |/talker   | formato json tópico: "Documentação"   |string / number   | Cadastra um palestrante a partir do id passado como parâmetro  |
+|  PUT  | /talker/:id  | id  |number   | Atualiza os dados de um palestrante passando a partir do id passado como parâmetro  |
+|DELETE   |/talker/:id    |id   |number   | Deleta um palestrante a partir do id passado como parâmetro   |
 
 
