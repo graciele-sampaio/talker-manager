@@ -128,7 +128,7 @@ Instale as dependências
 
 ##
 
-#### Atualiza dados do palestrante a partir do id passado como parâmetro
+#### Atualiza dados do palestrante a partir do id passado como parâmetro na rota(sem alterar o id no corpo de requisição)
 ```http
   PUT /talker/:id
 ```
@@ -137,6 +137,16 @@ Instale as dependências
 | :---------- | :--------- | :------------------------------------------ |
 | `id`      | `number` | **Obrigatório**. O ID do palestrante que você quer |
 
+```http
+  {
+  "name": "Username",
+  "age": 28,
+  "talk": {
+    "watchedAt": "23/10/2019",
+    "rate": 9
+  }
+}
+```
 ##
 
 #### Deleta o palestrante a partir do id passado como parâmetro
