@@ -45,7 +45,7 @@ Para executar o terminal no container:
 docker exec -it talker_manager bash
 ```
 
-Para executar a aplicação com o nodemon, uilize o comando:
+Para executar a aplicação com o nodemon, uilize o comando dentro do container node:
 ```bash
 npm run dev
 ```
