@@ -91,6 +91,24 @@ Instale as dependências
 ```
 ##
 
+#### Cadastra um palestrante
+```http
+  POST /talker
+```
+
+- Formato do corpo da requisição:
+```http
+  {
+  "name": "Username",
+  "age": 26,
+  "talk": {
+    "watchedAt": "13/10/2021",
+    "rate": 8
+  }
+}
+```
+##
+
 #### Retorna um array com todos os palestrantes
 
 ```http
@@ -108,23 +126,6 @@ Instale as dependências
 | :---------- | :--------- | :------------------------------------------ |
 | `id`      | `number` | **Obrigatório**. O ID do palestrante que você quer |
 
-##
-#### Cadastra um palestrante
-```http
-  POST /talker
-```
-
-- Formato do corpo da requisição:
-```http
-  {
-  "name": "Username",
-  "age": 26,
-  "talk": {
-    "watchedAt": "13/10/2021",
-    "rate": 8
-  }
-}
-```
 ##
 
 #### Atualiza dados do palestrante a partir do id passado como parâmetro
