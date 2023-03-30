@@ -51,7 +51,7 @@ npm run dev
 ```
 
 ## Rodando localmente 
-- Para rodar dessa foma Obrigatoriamente você deve ter a versão 16 do node instalado em seu computador.
+- Para rodar dessa foma, obrigatoriamente você deve ter instalado em seu computador a versão 16 do node.
 
 Clone o repositório 
 ```bash
