@@ -71,7 +71,7 @@ Instale as dependências
 
 ## Documentação da API
 
-#### Passando email, senha e retorna o token 
+#### Passando email e senha, retorna o token 
 ```http
   POST /login
 ```
