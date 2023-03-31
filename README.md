@@ -164,7 +164,7 @@ Instale as dependências
 |  Método | Rota  |Parâmetro   |Tipo   | Descrição  |
 | :------------ | :------------ | :------------ | :------------ | :------------ |
 | POST  |/login   |email / password   | string / string | Passando email e password, retorna um token |
-| POST  |/talker   | formato json disponível no tópico: "Documentação da API"   |string / number   | Cadastra um palestrante a partir do id passado como parâmetro  |
+| POST  |/talker   | formato json disponível no tópico: "Documentação da API"   |string / number   | Cadastra um palestrante por meio das informações passadas no corpo da requisição  |
 | GET   | /talker  | - - -  | - - -   | Retorna um array com todas as pessoas cadastradas   |
 | GET   |/talker/:id   | id  |number   | Busca palestrante a partir do id passado como parâmetro |
 | PUT   | /talker/:id  | id  |number   | Atualiza os dados de um palestrante a partir do id passado como parâmetro  |
