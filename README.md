@@ -27,17 +27,17 @@ git@github.com:graciele-sampaio/talker-manager.git
 Entre na pasta criada:
 
 ```bash
-  cd talker-manager
+cd talker-manager
 ```
 
 Instale as dependências
 ```bash
-  npm install
+npm install
 ```
 
 Rodando o serviço do node no Docker.
 ```bash
-  docker-compose up -d --build
+docker-compose up -d --build
 ```
 
 Para executar o terminal no container:
@@ -61,19 +61,19 @@ git@github.com:graciele-sampaio/talker-manager.git
 Entre na pasta criada:
 
 ```bash
-  cd talker-manager
+cd talker-manager
 ```
 
 Instale as dependências
 ```bash
-  npm install
+npm install
 ```
 
 ## Documentação da API
 
 #### Passando email e senha, retorna o token 
 ```http
-  POST /login
+POST /login
 ```
 - Formato do corpo da requisição:
 ```http
@@ -93,7 +93,7 @@ Instale as dependências
 
 #### Cadastra um palestrante
 ```http
-  POST /talker
+POST /talker
 ```
 
 - Formato do corpo da requisição:
@@ -112,14 +112,14 @@ Instale as dependências
 #### Retorna um array com todos os palestrantes
 
 ```http
-  GET /talker
+GET /talker
 ```
 
 ##
 #### Retorna um palestrante a partir do id passado como parâmetro
 
 ```http
-  GET /talker/:id
+GET /talker/:id
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
@@ -130,7 +130,7 @@ Instale as dependências
 
 #### Atualiza dados do palestrante a partir do id passado como parâmetro na rota(sem alterar o id no corpo de requisição)
 ```http
-  PUT /talker/:id
+PUT /talker/:id
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
@@ -151,7 +151,7 @@ Instale as dependências
 
 #### Deleta o palestrante a partir do id passado como parâmetro
 ```http
-  DELETE /talker/:id
+DELETE /talker/:id
 ```
 
 | Parâmetro   | Tipo       | Descrição                                   |
